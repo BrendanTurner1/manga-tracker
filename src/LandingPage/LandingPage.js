@@ -5,6 +5,7 @@ function LandingPage() {
     return (
         <div className="landing-container">
             <Header />
+            {/* what do you want here */}
             <h1 className="page-title">Home</h1>
         </div>
     )

@@ -1,0 +1,10 @@
+.landing-container {
+    height: calc(100vh - 120px);
+    width: 100vw;
+    border: black;
+}
+
+.page-title {
+    display: flex;
+    justify-content: center;
+}

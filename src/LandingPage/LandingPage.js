@@ -6,7 +6,7 @@ function LandingPage() {
         <div className="landing-container">
             <Header />
             {/* what do you want here */}
-            <h1 className="page-title">Home</h1>
+            <h1 className="page-title">Tim's White Space</h1>
         </div>
     )
 }

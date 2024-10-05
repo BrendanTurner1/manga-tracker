@@ -3,11 +3,9 @@ import { Link } from "react-router-dom";
 
 function Header() {
     return (
-
-        //create sections for Home, Nav, Profile
         <header className="header-container">
             <div className="library-container">
-                <Link to="/library" style={{ textDecoration: "none", color: "black" }}>
+                <Link className="nav-item" to="/library" style={{textDecoration: "none"}}>
                     <h1 className="library-title">Library</h1>
                 </Link>
             </div>

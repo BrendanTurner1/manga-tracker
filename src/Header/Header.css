@@ -1,10 +1,23 @@
 .header-container {
     width: 100vw;
     height: 120px;
-    fill: black;
+    display: flex;
+    justify-content: space-evenly;
 }
 
+.nav-item:hover {
+    text-decoration: underline;
+}
 .header-title {
     display: flex;
     justify-content: center;
+}
+
+.library-title {
+    text-decoration: none;
+    color: black;
+}
+
+.library-title:hover {
+    text-decoration: underline;
 }
